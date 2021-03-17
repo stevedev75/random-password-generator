@@ -31,42 +31,78 @@ size = window.prompt("What length do you prefer between 8 and 128?");
 if (size < 129 && size > 7) {
     console.log(size); }
 
-//else if (size > 128 || size < 8) {
-// size = window.alert("Your length was not between 8 and 128. Please start over."); 
-//     return;
-//           }
+else if (size > 128 || size < 8) {
+ size = window.alert("Your length was not between 8 and 128. Please start over."); 
+     return;
+          }
 
-//else {(isNaN) 
-//    (window.alert("This is not a number. Please start over."));{
-//     return;            }
-    
+else if (size = !NaN) {(window.alert("This is not a number. Please start over."));
+    return;    
+        }
 
 wantsLow = window.confirm ('Do you want lower case?'); {
-    if (true) {
-        password+=caseL[Math.floor(Math.random()*caseL.length)];    
+    if (wantsLow) {
         (d=(d+1)) }   
 }
+console.log(wantsLow);
 
 wantsUp = window.confirm ('Do you want upper case?'); {
-    if (true) {
-        password+=caseU[Math.floor(Math.random()*caseU.length)];    
+    if (wantsUp) {
         (d=(d+1)) }
 }
 
+console.log(wantsUp);
+
 wantsNum = window.confirm ('Do you want to include a number?'); {
-    if (true) {
-        password+=num[Math.floor(Math.random()*num.length)];    
+    if (wantsNum) {    
         (d=(d+1)) }
 }
+
+console.log(wantsNum);
     
 wanstSchar = window.confirm ('Do you want to include a special character?'); {
-    if (true) {
-        password+=schar[Math.floor(Math.random()*schar.length)];    
+    if (wanstSchar) {
         (d=(d+1)) }
 }
-//if (d < 1) (window.alert("You didn't select any details. Please start over.")); {
-//    return;
-//} 
+
+console.log(wanstSchar);
+
+console.log(d);
+
+if (d < 1) {(window.alert("You didn't select any details. Please start over."));
+   return;
+}
+
+while (i < size) { 
+    
+    if (wantsLow && i < size); {
+        password+=caseL[Math.floor(Math.random()*caseL.length)]; 
+        (i = i + 1);
+    }
+
+    if (wantsUp && i < size) {
+    password+=caseU[Math.floor(Math.random()*caseU.length)];        
+    (i = i + 1);   
+    }  
+
+    if (wantsNum && i < size) {
+    password+=num[Math.floor(Math.random()*num.length)]; 
+    (i = i + 1);
+    }    
+    
+    if (wanstSchar && i < size) {
+    password+=schar[Math.floor(Math.random()*schar.length)];
+    (i = i + 1);
+    }
+    
+    }
+
+
+
+
+
+
+
     // how to stop the program here?
 
 //allChoices = ["caseL" + "caseU" + "num" + "schar"];
