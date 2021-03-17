@@ -69,13 +69,13 @@ console.log(wanstSchar);
 
 console.log(d);
 
-if (d < 1) {(window.alert("You didn't select any details. Please start over."));
+if (d < 1) {(window.alert("You didn't select any details. Please start over.")); 
    return;
 }
 
 while (i < size) { 
     
-    if (wantsLow && i < size); {
+    if (wantsLow && i < size) {
         password+=caseL[Math.floor(Math.random()*caseL.length)]; 
         (i = i + 1);
     }
@@ -98,30 +98,9 @@ while (i < size) {
     }
 
 
-
-
-
-
-
-    // how to stop the program here?
-
-//allChoices = ["caseL" + "caseU" + "num" + "schar"];
-//console.log(allChoices);
-
 return password;
                 }
 
-// size: "length" --> exact number of characters for random string
-
-
-// while statement here? i.e.:
-// i = 0
-// while i < size.length { run loop x number of iteration based on the number (size)
-// the user wants his/her password to be?
-
-
-// do you need to go through multiple iterations to make sure you capture at least 1
-// of each item selected by the user's prompt inputs?
 
 
 
