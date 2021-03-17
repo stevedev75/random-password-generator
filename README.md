@@ -3,30 +3,20 @@
 ## Application to generate a random password that meets certain user-selected criteria.
 
 My motivation for this project was to create a web application that uses JavaScript (which was added to some HTML, 
-
 CSS, and JavaScript “starter” code provided by Trilogy) that would generate a random password between 8 and 128 characters meeting 
-
 certain user-selected criteria (a potential combination of lowercase letters, uppercase letters, numbers, and/or special 
-
 characters. 
-
 
 I built this project, in part, to showcase my understanding of JavaScript and how it interfaces with the web browser.
 
-
 This application solves the problem often found when a user needs to utilize a strong password for security purposes as Internet 
-
 security has become increasingly important and with it the need for exceedingly strong passwords.
 
-
 In this project, I learned a tremendous amount of information about JavaScript, specifically regarding if statements, while loops, 
-
 window alerts and prompts, variables, and functions.
-
 
 Please see screenshot to preview UI:
 ![image](https://user-images.githubusercontent.com/77076615/111468962-88353100-86fc-11eb-9a46-93b64c03e2b6.png)
-
 
 Please see the URL to the deployed web application below
 https://github.com/stevedev75/random-password-generator
