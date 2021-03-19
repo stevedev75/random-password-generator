@@ -19,7 +19,7 @@ Please see screenshot to preview UI:
 ![image](https://user-images.githubusercontent.com/77076615/111468962-88353100-86fc-11eb-9a46-93b64c03e2b6.png)
 
 Please see the URL to the deployed web application below
-https://github.com/stevedev75/random-password-generator
+https://stevedev75.github.io/random-password-generator/
 
 
 Copyright (c) 2021 Stephen Dever
